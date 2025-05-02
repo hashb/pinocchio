@@ -10,7 +10,7 @@ license-file = "LICENSE"
 [build-dependencies]
 ccache = ">=4.9.1"
 cmake = ">=3.10"
-cxx-compiler = ">=1.7.0"
+# cxx-compiler = ">=1.7.0"
 ninja = ">=1.11"
 pkg-config = ">=0.29.2"
 
