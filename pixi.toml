@@ -14,16 +14,16 @@ cmake = ">=3.10"
 ninja = ">=1.11"
 pkg-config = ">=0.29.2"
 
-[dependencies]
-libboost-devel = ">=1.80.0"
-libboost-python-devel = ">=1.80.0"
-eigen = ">=3.4.0"
-numpy = ">=1.22.0"
-python = ">=3.9.0"
-eigenpy = ">=3.7.0"
-urdfdom = ">=4.0"
-meshcat-python = ">=0.3"
-matplotlib = ">=3.9.2"
+# [dependencies]
+# libboost-devel = ">=1.80.0"
+# libboost-python-devel = ">=1.80.0"
+# eigen = ">=3.4.0"
+# numpy = ">=1.22.0"
+# python = ">=3.9.0"
+# eigenpy = ">=3.7.0"
+# urdfdom = ">=4.0"
+# meshcat-python = ">=0.3"
+# matplotlib = ">=3.9.2"
 
 [activation]
 scripts = ["development/scripts/pixi/activation.sh"]
