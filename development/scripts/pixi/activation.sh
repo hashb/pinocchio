@@ -2,13 +2,13 @@
 # Activation script
 
 # Remove flags setup from cxx-compiler
-unset CFLAGS
-unset CPPFLAGS
-unset CXXFLAGS
-unset DEBUG_CFLAGS
-unset DEBUG_CPPFLAGS
-unset DEBUG_CXXFLAGS
-unset LDFLAGS
+# unset CFLAGS
+# unset CPPFLAGS
+# unset CXXFLAGS
+# unset DEBUG_CFLAGS
+# unset DEBUG_CPPFLAGS
+# unset DEBUG_CXXFLAGS
+# unset LDFLAGS
 
 if [[ $host_alias == *"apple"* ]];
 then
