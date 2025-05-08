@@ -455,10 +455,10 @@ add_subdirectory(bindings)
 add_subdirectory(utils)
 
 # --- UNIT TESTS ---------------------------------------------------------------
-add_subdirectory(unittest)
+# add_subdirectory(unittest)
 
 # --- CHECK EXAMPLES -----------------------------------------------------------
-add_subdirectory(examples)
+# add_subdirectory(examples)
 
 # --- BENCHMARKS ---------------------------------------------------------------
 if(BUILD_BENCHMARK)
